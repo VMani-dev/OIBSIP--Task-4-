@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login / Register</h2>
+        <div id="message"></div>
+        
+    
+        <div id="registerForm">
+            <h3>Register</h3>
+            <input type="text" id="regUsername" placeholder="Username" required><br>
+            <input type="password" id="regPassword" placeholder="Password" required><br>
+            <button onclick="register()">Register</button>
+        </div>
+
+
+        <div id="loginForm">
+            <h3>Login</h3>
+            <input type="text" id="loginUsername" placeholder="Username" required><br>
+            <input type="password" id="loginPassword" placeholder="Password" required><br>
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
